@@ -1,0 +1,36 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+
+# Jupyter checkpoints (keep the actual notebooks tracked)
+.ipynb_checkpoints/
+
+# Local environment directories, including an in-project Conda environment
+.conda/
+env/
+envs/
+.venv/
+venv/
+
+# Credentials and local environment variables
+.env
+.env.*
+!.env.example
+
+# VS Code local settings and temporary execution files
+.vscode/
+tempCodeRunnerFile.py
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files and logs
+*.log
+*.tmp
+*~
+
+# Keep project deliverables tracked:
+# data/users_behavior.csv, *.ipynb, requirements.txt, and environment.yml
+# Do not add data/ or *.csv to this file: the dataset is included in the repository.
