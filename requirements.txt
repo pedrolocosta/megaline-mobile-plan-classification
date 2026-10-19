@@ -1,0 +1,8 @@
+# Data handling
+pandas
+
+# Classification models, data splitting, evaluation, and baseline
+scikit-learn
+
+# Notebook support and Python kernel for VS Code
+ipykernel
